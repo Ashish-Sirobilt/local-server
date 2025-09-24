@@ -1,0 +1,43 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables (e.g. sensitive data like passwords or API keys)
+.env
+
+# Dependency directories
+bower_components/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+coverage/
+
+# npm package-lock file (optional but recommended)
+package-lock.json
+
+# Optional: Ignore compiled or minified files if not needed
+*.min.js
+*.bundle.js
+
+# Ignore the debug folder created by the debugger (if used)
+/.debug/
+
+# Ignore Docker files (optional)
+docker-compose.yml
+Dockerfile
